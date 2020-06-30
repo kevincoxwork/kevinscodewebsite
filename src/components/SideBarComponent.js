@@ -66,7 +66,10 @@ const SideBarComponent = () => {
         <p>Software Developer</p>
         <p>Waterloo, Ontario</p>
         <IconSizes>
-          <a target="__blank" href="https://www.linkedin.com/">
+          <a
+            target="__blank"
+            href="https://www.linkedin.com/in/kevinscode/"
+          >
             <i className="external-icon devicon-linkedin-plain"></i>
           </a>
           <a target="__blank" href="https://github.com/kevincoxwork/">
