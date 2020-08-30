@@ -42,6 +42,7 @@ const OuterDiv = styled(Paper)`
     position: inherit;
     padding-left: 0vw;
     padding-right: 0vw;
+    padding-bottom: 2vh;
   }
 `;
 const IconSizes = styled.div`

@@ -7,7 +7,7 @@ export const AllLanguages = {
 export const Technologies = {
   languagesTitle: 'Technologies/Frameworks',
   languages:
-    'Node.js, React (Hooks), Redux, Angular, Vue, REST, POST, GraphQL',
+    'Node.js, React (Hooks), Redux, Angular, Vue, REST/SOAP Endpoints, GraphQL',
 };
 
 export const Database = {
