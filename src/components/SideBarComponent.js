@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Paper from '@material-ui/core/Paper';
+import PrintIcon from '@material-ui/icons/Print';
 import MailIcon from '@material-ui/icons/Mail';
 import Photo from '../resources/me.jpg';
 
@@ -35,6 +36,9 @@ const OuterDiv = styled(Paper)`
   overflow-x: hidden;
   padding-left: 5vw;
   margin-right: 0vw;
+  .desktop-print {
+    display: block;
+  }
 
   @media only screen and (max-width: 600px) {
     width: 100vw;
@@ -43,6 +47,9 @@ const OuterDiv = styled(Paper)`
     padding-left: 0vw;
     padding-right: 0vw;
     padding-bottom: 2vh;
+    .desktop-print {
+      display: none;
+    }
   }
 `;
 const IconSizes = styled.div`
@@ -55,6 +62,12 @@ const IconSizes = styled.div`
     font-size: 1.2em;
     padding-right 5%;;
   }
+`;
+
+const PrintIconStyled = styled(PrintIcon)`
+  padding: 2%;
+  font-size: 1.6rem;
+  vertical-align: middle;
 `;
 
 const SideBarComponent = () => {
@@ -76,12 +89,18 @@ const SideBarComponent = () => {
           <a target="__blank" href="https://github.com/kevincoxwork/">
             <i className="external-icon devicon-github-plain"></i>
           </a>
-          <a
-            style={{ verticalAlign: 'sub' }}
-            href="mailto:kevin.cox.work@gmail.com"
-          >
-            <MailIcon style={{ fontSize: '1.6rem' }} />
+          <a href="mailto:kevin.cox.work@gmail.com">
+            <MailIcon
+              style={{ fontSize: '1.6rem', verticalAlign: 'sub' }}
+            />
           </a>
+          <br />
+          <p className="desktop-print">
+            <a target="__blank" href="/files/kevin_cox_resume.pdf">
+              Printable Resume
+              <PrintIconStyled />
+            </a>
+          </p>
         </IconSizes>
       </CenteredText>
     </OuterDiv>
