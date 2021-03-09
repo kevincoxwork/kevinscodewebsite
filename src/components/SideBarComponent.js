@@ -8,6 +8,10 @@ import Photo from '../resources/me.png';
 const RoundedImage = styled.img`
   border-radius: 2vw;
   width: 10vw;
+
+  @media only screen and (max-width: 600px) {
+    width: 30vw;
+  }
 `;
 
 const CenteredText = styled.div`
@@ -48,6 +52,7 @@ const OuterDiv = styled(Paper)`
     padding-left: 0vw;
     padding-right: 0vw;
     padding-bottom: 2vh;
+    font-size: 2vh;
     .desktop-print {
       display: none;
     }

@@ -33,6 +33,7 @@ const Body = styled.div`
   color: #D8DEE9;
   @media only screen and (max-width: 600px) {
     width: 95vw;
+    font-size: 2vh;
   }
 `;
 
