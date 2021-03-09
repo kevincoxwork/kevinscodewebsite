@@ -52,7 +52,7 @@ const OuterDiv = styled(Paper)`
     padding-left: 0vw;
     padding-right: 0vw;
     padding-bottom: 2vh;
-    font-size: 2vh;
+    font-size: 5vw;
     .desktop-print {
       display: none;
     }
