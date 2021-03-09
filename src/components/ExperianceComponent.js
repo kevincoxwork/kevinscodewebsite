@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const FontDiv = styled.div`
   font-family: 'Roboto Mono', monospace;
+  padding-top: 2%;
   p {
     line-height: 1;
   }

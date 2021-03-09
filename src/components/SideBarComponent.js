@@ -3,11 +3,10 @@ import styled from 'styled-components';
 import Paper from '@material-ui/core/Paper';
 import PrintIcon from '@material-ui/icons/Print';
 import MailIcon from '@material-ui/icons/Mail';
-import Photo from '../resources/me.jpg';
+import Photo from '../resources/me.png';
 
 const RoundedImage = styled.img`
   border-radius: 2vw;
-  border: 0.2vw solid black;
   width: 10vw;
 `;
 
@@ -18,6 +17,7 @@ const CenteredText = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #D8DEE9;
   @media only screen and (max-width: 600px) {
     position: inherit;
     top: 0%;
@@ -26,7 +26,7 @@ const CenteredText = styled.div`
 `;
 
 const OuterDiv = styled(Paper)`
-  background-color: #c0b2b5 !important;
+  background-color: #4C566A !important;
   height: 100%;
   width: 10vw;
   position: fixed;
@@ -36,6 +36,7 @@ const OuterDiv = styled(Paper)`
   overflow-x: hidden;
   padding-left: 5vw;
   margin-right: 0vw;
+  
   .desktop-print {
     display: block;
   }
@@ -55,7 +56,7 @@ const OuterDiv = styled(Paper)`
 const IconSizes = styled.div`
   a {
     text-decoration: none;
-    color: black;
+    color: #D8DEE9;
    
   }
   .external-icon {

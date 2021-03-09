@@ -30,7 +30,7 @@ const Body = styled.div`
   padding-left: 5vw;
   padding-top: 5vh;
   font-family: 'Roboto Mono', monospace;
-
+  color: #D8DEE9;
   @media only screen and (max-width: 600px) {
     width: 95vw;
   }

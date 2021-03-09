@@ -1,9 +1,9 @@
 export const Western = {
   name: 'University of Western Ontario',
   date: '2020-2022 (Exp)',
-  cred: 'BSc, Computer Science',
+  cred: 'Honors BSc, Computer Science',
   desc:
-    'Fanshawe to Western transfer program to begin September 2020',
+    'Third Year Student - 90 % Average',
 };
 
 export const Fanshawe = {

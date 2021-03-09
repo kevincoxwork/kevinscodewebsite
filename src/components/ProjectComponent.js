@@ -22,7 +22,7 @@ const TextAlignedRight = styled.a`
   float: right;
   margin: 0;
   text-decoration: none;
-  color: black;
+  color: #D8DEE9;
 `;
 const AlignLeft = styled.div`
   h3 {
