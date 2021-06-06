@@ -7,14 +7,18 @@ const FontDiv = styled.div`
   padding-top: 2%;
   p {
     line-height: 1;
+    font-size: 1.2em;
   }
   @media only screen and (max-width: 600px) {
     p {
       line-height: 1;
-      font-size: 0.8em;
+      font-size: 0.4em;
     }
     h3 {
       font-size: 0.8em;
+    }
+    h4 {
+      font-size: 0.5em;
     }
   }
 `;
@@ -27,6 +31,14 @@ const AlignLeft = styled.div`
     margin-top: 0;
   }
 `;
+const CompanyText = styled.h4`
+font-size: 1.3em;  
+margin: 0;
+`
+const JobTitleText = styled.h3`
+font-size: 1.5em;  
+margin: 0;
+`
 
 const Experiance = ({ job }) => {
   const { company, location, date, jobTitle, jobDesc } = job;
@@ -35,9 +47,10 @@ const Experiance = ({ job }) => {
       <TextAlignedRight>{date}</TextAlignedRight>
 
       <AlignLeft>
-        <h3>
-          {jobTitle} / {company} - {location}
-        </h3>
+        <JobTitleText>
+          {jobTitle}
+        </JobTitleText>
+        <CompanyText> {company} - {location}</CompanyText>
         {jobDesc.map((singleJobLine, index) => {
           return <p key={index}>{singleJobLine}</p>;
         })}

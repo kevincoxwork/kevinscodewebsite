@@ -103,7 +103,7 @@ const SideBarComponent = () => {
           <br />
           <p className="desktop-print">
             <a target="__blank" href="/files/kevin_cox_resume.pdf">
-              Print-Ready Resume
+              PDF Resume
               <PrintIconStyled />
             </a>
           </p>

@@ -6,13 +6,13 @@ import Languages from './LanguagesComponent';
 import styled from 'styled-components';
 import {
   manulife2020,
-  manulifeMay2019,
-  manulife2018,
+  manulifeInvestmentsCoop,
 } from '../constants/jobs/manulife';
+import { RBC2021 } from '../constants/jobs/rbc';
 import {
   Spotify_Music_Visualizer,
   Chat_App,
-  MVC_Framework,
+  Maze_Builder,
   Remote_Threaded_Grep,
 } from '../constants/projects/projects';
 import {
@@ -30,7 +30,7 @@ const Body = styled.div`
   padding-left: 5vw;
   padding-top: 5vh;
   font-family: 'Roboto Mono', monospace;
-  color: #D8DEE9;
+  color: #d8dee9;
   @media only screen and (max-width: 600px) {
     width: 95vw;
     font-size: 5vw;
@@ -47,15 +47,15 @@ const Main = () => {
     <Body>
       <FloatLeftDiv>
         <h2>Work Experiance</h2>
+        <Experiance job={RBC2021} />
         <Experiance job={manulife2020} />
-        <Experiance job={manulifeMay2019} />
-        <Experiance job={manulife2018} />
+        <Experiance job={manulifeInvestmentsCoop} />
       </FloatLeftDiv>
       <FloatLeftDiv>
         <h2>Projects</h2>
         <Project project={Spotify_Music_Visualizer} />
         <Project project={Chat_App} />
-        <Project project={MVC_Framework} />
+        <Project project={Maze_Builder} />
         <Project project={Remote_Threaded_Grep} />
       </FloatLeftDiv>
       <FloatLeftDiv>
