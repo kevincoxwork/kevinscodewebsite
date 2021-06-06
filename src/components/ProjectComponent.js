@@ -6,6 +6,7 @@ const FontDiv = styled.div`
   font-family: 'Roboto Mono', monospace;
   p {
     line-height: 1;
+    font-size: 1.2em;
   }
   @media only screen and (max-width: 600px) {
     p {

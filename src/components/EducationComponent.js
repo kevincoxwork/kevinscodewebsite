@@ -7,6 +7,7 @@ const FontDiv = styled.div`
   text-align: left;
   p {
     line-height: 1;
+    font-size: 1.2em;
   }
   @media only screen and (max-width: 600px) {
     p {
