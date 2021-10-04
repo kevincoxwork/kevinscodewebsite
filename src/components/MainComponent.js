@@ -9,6 +9,7 @@ import {
   manulifeInvestmentsCoop,
 } from '../constants/jobs/manulife';
 import { RBC2021 } from '../constants/jobs/rbc';
+import { AMZN2022 } from '../constants/jobs/amazon';
 import {
   Spotify_Music_Visualizer,
   Chat_App,
@@ -47,6 +48,7 @@ const Main = () => {
     <Body>
       <FloatLeftDiv>
         <h2>Work Experiance</h2>
+        <Experiance job={AMZN2022} />
         <Experiance job={RBC2021} />
         <Experiance job={manulife2020} />
         <Experiance job={manulifeInvestmentsCoop} />

@@ -1,7 +1,7 @@
 export const RBC2021 = {
     company: 'Royal Bank of Canada',
     location: 'Toronto, ON / Remote',
-    date: 'Jan - Aug 2020',
+    date: 'May - Aug 2021',
     jobTitle: 'Cloud Security DevOps Co-op',
     jobDesc: [
         'Mitigated risk in company-wide AWS cloud environments through the identification and development of python-based infrastructure-as-code preventive and detective AWS lambda function controls', 
