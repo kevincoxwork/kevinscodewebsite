@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import Paper from '@material-ui/core/Paper';
-import PrintIcon from '@material-ui/icons/Print';
-import MailIcon from '@material-ui/icons/Mail';
+import Paper from '@mui/material/Paper';
+import PrintIcon from '@mui/icons-material/Print';
+import MailIcon from '@mui/icons-material/Mail';
 import Photo from '../resources/me.png';
 
 const RoundedImage = styled.img`

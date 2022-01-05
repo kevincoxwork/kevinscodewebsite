@@ -1,6 +1,6 @@
 export const manulife2020 = {
   company: 'Manulife Financial',
-  location: 'Remote',
+  location: 'Waterloo, ON / Remote',
   date: 'Jan - Aug 2020',
   jobTitle: 'Fullstack Software Engineer Co-op',
   jobDesc: [
@@ -13,7 +13,7 @@ export const manulife2020 = {
 
 export const manulifeInvestmentsCoop = {
   company: 'Manulife Financial',
-  location: 'Remote',
+  location: 'Waterloo, ON / Remote',
   date: 'Jan-April 2018  |  Sept-Dec 2018  |  May-Aug 2019',
   jobTitle: 'Fullstack Software Engineer Co-op',
   jobDesc: [

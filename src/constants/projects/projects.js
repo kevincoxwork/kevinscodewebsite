@@ -31,6 +31,6 @@ export const Remote_Threaded_Grep = {
   projectLink: 'https://github.com/kevincoxwork/remote_ultragrep/',
   projectDesc: [
     'Recreation of recursive keyword search utility with amplified performance through custom Win32 & standard C++ thread pool systems',
-    'Engineered remote functionality through Win32 & ASIO sockets implementing a client/server software pattern	git.io/JGfYY'
+    'Engineered remote functionality through Win32 & ASIO sockets implementing a client/server software pattern.'
   ],
 };

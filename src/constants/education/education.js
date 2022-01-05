@@ -3,7 +3,7 @@ export const Western = {
   date: '2020-2022',
   cred: 'Honours BSc, Computer Science',
   desc:
-    'Dean\'s Honour Roll - Fourth Year Student - 85 % Average',
+    'Dean\'s Honour Roll - Fourth Year Student - 87 % Average',
 };
 
 export const Fanshawe = {

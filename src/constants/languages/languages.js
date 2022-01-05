@@ -1,13 +1,13 @@
 export const AllLanguages = {
   languagesTitle: 'Languages',
   languages:
-    'JavaScript (ES6), C#, C++, Java, SQL, TypeScript, HTML, CSS, Python',
+    'JavaScript, C#, C++, Java, Python, TypeScript, SQL, HTML, CSS',
 };
 
 export const Technologies = {
   languagesTitle: 'Technologies/Frameworks',
   languages:
-    'Node.js, React (Hooks), Redux, Angular, Vue, REST/SOAP Endpoints, GraphQL',
+    'Node.js, React, Redux, Angular, REST/SOAP Endpoints',
 };
 
 export const Database = {
@@ -18,7 +18,7 @@ export const Database = {
 export const Cloud = {
   languagesTitle: 'Cloud/DevOps',
   languages:
-    'Multiple Linux/Unix Distros (Debain and RPM Based), GitHub & GitLab Pipelines, Jenkins, Apache, AWS, Heroku, Azure, Docker, NGINX',
+    'Various Linux Distros, GitHub & GitLab Pipelines, Jenkins, AWS, Azure, Docker, NGINX',
 };
 
 export const Testing = {
