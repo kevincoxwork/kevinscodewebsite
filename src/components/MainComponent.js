@@ -1,5 +1,5 @@
 import React from 'react';
-import Experiance from './ExperianceComponent';
+import Experience from './ExperienceComponent';
 import Education from './EducationComponent';
 import Project from './ProjectComponent';
 import Languages from './LanguagesComponent';
@@ -47,11 +47,11 @@ const Main = () => {
   return (
     <Body>
       <FloatLeftDiv>
-        <h2>Work Experiance</h2>
-        <Experiance job={AMZN2022} />
-        <Experiance job={RBC2021} />
-        <Experiance job={manulife2020} />
-        <Experiance job={manulifeInvestmentsCoop} />
+        <h2>Work Experience</h2>
+        <Experience job={AMZN2022} />
+        <Experience job={RBC2021} />
+        <Experience job={manulife2020} />
+        <Experience job={manulifeInvestmentsCoop} />
       </FloatLeftDiv>
       <FloatLeftDiv>
         <h2>Projects</h2>

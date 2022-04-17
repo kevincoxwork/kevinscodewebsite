@@ -8,7 +8,7 @@ font-size: 1.3em;
 margin: 0;
 `
 
-const Experiance = ({ job }) => {
+const Experience = ({ job }) => {
   const { company, location, date, jobTitle, jobDesc } = job;
   return (
     <FontDiv>
@@ -28,7 +28,7 @@ const Experiance = ({ job }) => {
     </FontDiv>
   );
 };
-Experiance.propTypes = {
+Experience.propTypes = {
   job: PropTypes.shape({
     company: PropTypes.string,
     location: PropTypes.string,
@@ -37,7 +37,7 @@ Experiance.propTypes = {
     jobDesc: PropTypes.arrayOf(PropTypes.string),
   }),
 };
-Experiance.defaultProps = {
+Experience.defaultProps = {
   job: PropTypes.shape({
     company: '',
     location: '',
@@ -47,4 +47,4 @@ Experiance.defaultProps = {
   }),
 };
 
-export default Experiance;
+export default Experience;
