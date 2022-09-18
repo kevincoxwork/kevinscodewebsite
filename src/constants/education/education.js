@@ -1,9 +1,9 @@
 export const Western = {
   name: 'University of Western Ontario',
-  date: '2020-2022',
+  date: '2020-Dec 2022 (Exp.)',
   cred: 'Honours BSc, Computer Science',
   desc:
-    'Dean\'s Honour Roll - Fourth Year Student - 87 % Average',
+    'Dean\'s Honour Roll - Fourth Year Student - Cumulative Average 88%',
 };
 
 export const Fanshawe = {

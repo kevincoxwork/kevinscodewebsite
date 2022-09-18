@@ -5,11 +5,10 @@ import Project from './ProjectComponent';
 import Languages from './LanguagesComponent';
 import styled from 'styled-components';
 import {
-  manulife2020,
-  manulifeInvestmentsCoop,
+  manulife,
 } from '../constants/jobs/manulife';
-import { RBC2021 } from '../constants/jobs/rbc';
-import { AMZN2022 } from '../constants/jobs/amazon';
+import { rbc } from '../constants/jobs/rbc';
+import { AmazonIntern, AmazonFullTime } from '../constants/jobs/amazon';
 import {
   Spotify_Music_Visualizer,
   Chat_App,
@@ -48,10 +47,10 @@ const Main = () => {
     <Body>
       <FloatLeftDiv>
         <h2>Work Experience</h2>
-        <Experience job={AMZN2022} />
-        <Experience job={RBC2021} />
-        <Experience job={manulife2020} />
-        <Experience job={manulifeInvestmentsCoop} />
+        <Experience job={AmazonFullTime} />
+        <Experience job={AmazonIntern} />
+        <Experience job={rbc} />
+        <Experience job={manulife} />
       </FloatLeftDiv>
       <FloatLeftDiv>
         <h2>Projects</h2>
