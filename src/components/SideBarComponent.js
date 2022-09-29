@@ -84,7 +84,7 @@ const SideBarComponent = () => {
         <RoundedImage src={Photo} />
         <p>Kevin Cox</p>
         <p>Software Developer</p>
-        <p>Waterloo, Ontario</p>
+        <p>Toronto, Ontario</p>
         <IconSizes>
           <a
             target="__blank"
